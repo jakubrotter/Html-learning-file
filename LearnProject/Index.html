@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML LEARNING NOTES</title>
+    <link rel="icon" href="logo.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="TopBar">
+        <h1 align="center" id="Title">HTML LEARNING NOTES</h1>
+        <p id="name">Jakub Rotter</p>
+    </div>
+        <hr class="TitleHr">
+    <div class="Sections">
+        <!--Titles-->
+        <div class="Section">
+            <p id="SectionTitle"">TITLES</p>
+            <div style="height: max-content; width: 800px;"></div>
+            <h1 class="TitleExample" title="h1">Title</h1>
+            <h2 class="TitleExample" title="h2">Title</h2>
+            <h3 class="TitleExample" title="h3" >Title</h3>
+            <h4 class="TitleExample" title="h4">Title</h4>
+            <h5 class="TitleExample" title="h5">Title</h5>
+        </div>
+        <hr style="width: 1500px;">
+        <!--LINKS-->
+        <div class="Section">    
+            <p id="SectionTitle"">LINKS</p>
+            <div style="height: max-content; width: 840px;"></div>
+            <div style="background-color: white;align-self: center;">
+                <a href="https://www.google.com" title="https://www.google.com" style="margin-left: 100px;">Google</a>
+                <a href="mailto:jakub.rotter336@gmail.com" title="mailto:mail@gmail.com" style="padding-left: 40px;">Email me!</a>
+            </div>
+        </div>
+        <hr style="width: 1500px;">
+    
+        <!--IMAGES-->
+        <div class="Section">
+            <p id="SectionTitle"">IMAGES</p>
+            <div style="height: max-content; width: 1035px;"></div>
+            <img src="logo.jpg" height="100" width="80" alt="Profile picture" style="align-self: center; cursor: pointer;" title="img">
+        </div>
+        <hr style="width: 1500px;">
+    
+        <!--AUDIO-->
+        <div class="Section">
+            <p id="SectionTitle"">AUDIO</p>
+            <div style="height: max-content; width: 820px;"></div>
+            <audio controls src="Audio.wav" autoplay muted loop title="audio controls (autoplay/muted/loop)" style="align-self: center;"></audio>
+        </div>
+        <hr style="width: 1500px;">
+    
+        <!--TEXT FORMATING-->
+        <div class="Section">
+            <p id="SectionTitle">FORMATING</p>
+            <div style="height: max-content; width: 1000px;"></div>
+            <div style="cursor: pointer;">
+                <p>Normal text</p>
+                <p title="b"><b>Bold text</b></p>
+                <p title="i"><i>Italic text</i></p>
+                <p title="big"><big>Big text</big></p>
+                <p title="small"><small>Small text</small></p>
+                <p title="sub"><sub>Subscript text</sub></p>
+                <p title="sup"><sup>Superscript text</sup></p>
+                <p title="ins"><ins>Underlined text</ins></p>
+                <p title="del"><del>Deleted text</del></p>
+                <p title="mark"><mark>Marked text</mark></p>
+            </div>
+        </div>
+        <hr style="width: 1500px;">
+    
+        <!--LISTS-->
+        <div class="Section">
+            <p id="SectionTitle">LISTS</p>
+            <div style="height: max-content; width: 560px;"></div>
+            <div style="padding-left: 10px; cursor: pointer;">
+                <h3 title="ul"><b>unordered</b></h3>
+                <ul>
+                    <li title="li">egg</li>
+                    <li title="li">tomato</li>
+                    <li title="li">toppings
+                        <ul>
+                            <li>pepperoni</li>
+                            <li>mushrooms</li>
+                            <li>peppers</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div style="padding-left: 30px; cursor: pointer;">
+                <h3 title="ol"><b>ordered</b></h3>
+                <ol type="1">
+                    <li title="li | type 1">egg</li>
+                    <li title="li | type 1">tomato</li>
+                    <li title="li | type 1">pumpkin</li>
+                </ol>
+                <ol type="A">
+                    <li title="li | type A">egg</li>
+                    <li title="li | type A">tomato</li>
+                    <li title="li | type A">pumpkin</li>
+                </ol>
+                <ol type="I">
+                    <li title="li | type I">egg</li>
+                    <li title="li | type I">tomato</li>
+                    <li title="li | type I">pumpkin</li>
+                </ol>
+            </div>
+            <div style="padding-left: 50px; cursor: pointer;">
+                <h3 title="dl"><b>descriptional</b></h3>
+                <dl>
+                    <dt title="dt">Text1</dt>
+                    <dd title="dd">Definition for text1</dd>
+                    <dt title="dt">Text2</dt>
+                    <dd title="dd">Definition for text2</dd>
+                    <dt title="dt">Text3</dt>
+                    <dd title="dd">Definition for text3</dd>
+                </dl>
+            </div>
+        </div>
+        <hr style="width: 1500px;">
+    
+        <!--TABLES-->
+        <div class="Section">
+            <p id="SectionTitle">TABLES</p>
+            <div style="height: max-content; width: 425px;"></div>
+            <div style="align-self: center; padding-top: 20px; padding-bottom: 20px;">
+                <table bgcolor="black" align="center" width=" 700" style="cursor: pointer;">
+                    <tr bgcolor="grey" align="center" title="tr">
+                        <th title="th">Monday</th>
+                        <th title="th">Tuesday</th>
+                        <th title="th">Wednesday</th>
+                        <th title="th">Thursday</th>
+                        <th title="th">Friday</th>
+                        <th title="th">Saturday</th>
+                        <th title="th">Sunday</th>
+                    </tr>
+                    <tr bgcolor="lightgrey" align="center" title="tr">
+                        <td title="td">9am-5pm</td>
+                        <td title="td">9am-5pm</td>
+                        <td title="td">9am-5pm</td>
+                        <td title="td">9am-5pm</td>
+                        <td title="td">9am-4pm</td>
+                        <td title="td">Closed</td>
+                        <td title="td">Closed</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <hr style="width: 1500px;">
+        
+        <!--SPAN/DIV-->
+        <div class="Section">
+            <p id="SectionTitle">SPAN/DIV</p>
+            <div style="height: max-content; width: 820px;"></div>
+            <div style="width: 300px;">
+                <h3>SPAN</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam bibendum consequat vulputate.<span style="color: gray;"> Etiam non finibus nisi, quis imperdiet est. </p>
+                <h3>DIV</h3>
+                <div style="color: grey;">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam bibendum consequat vulputate. Etiam non finibus nisi, quis imperdiet est. Pellentesque vestibulum lectus aliquet lacus tempor eleifend.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam bibendum consequat vulputate. Etiam non finibus nisi, quis imperdiet est. Pellentesque vestibulum lectus aliquet lacus tempor eleifend.</p>
+                </div>
+            </div>
+        </div>
+        <hr style="width: 1500px;">
+        <!--iFRAMES-->
+        <div class="Section">
+            <p id="SectionTitle">iFRAME</p>
+            <div style="height: max-content; width: 375px;"></div>
+            <iframe src="https://bing.com" width="750" height="400" title="iframe"></iframe>
+        </div>
+        <hr style="width: 1500px;">
+        <!--Buttons-->
+        <div class="Section">
+            <p id="SectionTitle">BUTTONS</p>
+            <div style="height: max-content; width: 885px;"></div>
+            <div style="padding-top: 15px; margin-top: 10px;">
+                <a href="https://www.google.com">
+                    <button style="background-color: rgb(38, 44, 44); color: white; width: 120px; height: 30px; border-radius: 20px; cursor: pointer;" title="button">Click me!</button>
+                </a>
+                <a href="https://www.google.com">
+                    <button disabled style="background-color: rgb(74, 85, 85); color: white; width: 120px; height: 30px; border-radius: 20px; cursor: pointer;" title="button disabled">Click me!</button>
+                </a>
+            </div>
+        </div>
+        <hr style="width: 1500px;">
+        <!--FORMS-->
+        <h3>Form</h3>
+        <div style="width: 300px; background-color: rgb(255, 255, 255); margin: 20px; padding: 20px; border-radius: 20px;">
+            <form align="center">
+                <label for="Fname">First Name:</label>
+                <input type="text" id="Fname" placeholder="Name">
+                <br>
+                <label for="Passw">Password:</label>
+                <input type="password" id="Passw" placeholder="Password">
+                <br>
+                <label for="Age">Age:</label>
+                <input type="number" id="Age" placeholder="Age">
+                <a href="">
+                    <button disabled style="background-color: rgb(74, 85, 85); color: white; width: 120px; height: 30px; border-radius: 20px; margin-top: 10px;">Submit</button>
+                </a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
